@@ -1,0 +1,20 @@
+﻿Build started 12/1/2015 11:20:04 PM.
+     1>Project "C:\Users\PDJ\Documents\Visual Studio 2015\Projects\D_Algorithm\D_Algorithm\D_Algorithm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PDJ\Documents\Visual Studio 2015\Projects\D_Algorithm\Release\D_Algorithm.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\PDJ\Documents\Visual Studio 2015\Projects\D_Algorithm\Release\D_Algorithm.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PDJ\Documents\Visual Studio 2015\Projects\D_Algorithm\Release\D_Algorithm.lib" /MACHINE:X86 /SAFESEH Release\Source.obj
+         Generating code
+     1>c:\users\pdj\documents\visual studio 2015\projects\d_algorithm\d_algorithm\source.cpp(438): warning C4715: 'generateValue': not all control paths return a value
+     1>c:\users\pdj\documents\visual studio 2015\projects\d_algorithm\d_algorithm\source.cpp(626): warning C4715: 'propogateFault': not all control paths return a value
+         62 of 227 functions (27.3%) were compiled, the rest were copied from previous compilation.
+           45 functions were new in current compilation
+           33 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         D_Algorithm.vcxproj -> C:\Users\PDJ\Documents\Visual Studio 2015\Projects\D_Algorithm\Release\D_Algorithm.exe
+     1>Done Building Project "C:\Users\PDJ\Documents\Visual Studio 2015\Projects\D_Algorithm\D_Algorithm\D_Algorithm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.66

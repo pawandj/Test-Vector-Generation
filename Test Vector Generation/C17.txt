@@ -1,0 +1,28 @@
+*These first five lines are comments.
+*The comment character is the  (asterisk).
+*The comment character may appear anywhere on a
+*line and remains in effect until the end of
+*the line is reached.
+1 1gat inpt 1 0 sa0 sa1
+2 2gat inpt 1 0 sa0 sa1
+3 3gat inpt 2 0 sa0 sa1
+8 8fan from 3gat sa0 sa1
+9 9fan from 3gat sa0 sa1
+6 6gat inpt 1 0 sa0 sa1
+7 7gat inpt 1 0 sa0 sa1
+10 10gat nand 1 2 sa0 sa1
+1 8
+11 11gat nand 2 2 sa0 sa1
+9 6
+14 14fan from 11gat sa0 sa1
+15 15fan from 11gat sa0 sa1
+16 16gat nand 2 2 sa0 sa1
+2 14
+20 20fan from 16gat sa0 sa1
+21 21fan from 16gat sa0 sa1
+19 19gat nand 1 2 sa0 sa1
+15 7
+22 22gat nand 0 2 sa0 sa1
+10 20
+23 23gat nand 0 2 sa0 sa1
+21 19
